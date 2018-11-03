@@ -14,12 +14,24 @@ Minion(String name, int eyes, String color, String master){
 	
 	
 }
-
-void getName() {
+void setMaster(String master) {
+	this.master = master;
 	
 }
+String getName() {
+return name;	
+}
+int getEyes() {
+	return eyes;
+}
+String getColor() {
+	return color;
+}
+String getMaster() {
+	return master;
+}
 
-	
+
 }
 
 
